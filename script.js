@@ -42,11 +42,22 @@ $(document).ready(function(){
     });
 
 });
+
+$(document).ready( function() {
+
+    $('.gallery-item').hover( function() {
+        $(this).find('.img-title').fadeIn(300);
+    }, function() {
+        $(this).find('.img-title').fadeOut(100);
+    });
+    
+});
+
 // FORM JS
 function submitFormData(){
 var name = document.getElementById("name").val;
 var email = document.getElementById("email").val;
 var message = document.getElementById("message").val;
  if (name !== "" && email !== "" && message !== "");
-    alert("Thank you," + name + " " + "We have received your message");
+    alert("Thank you," + "We have received your message");
 }

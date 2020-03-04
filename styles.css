@@ -53,21 +53,55 @@ body{
     text-align: center;
 }
 
-#contacts{
+.gallery {
+    width: 25em;
+    margin: 2em auto;
+}
+
+.gallery-item {
+    height: auto;
+    width: 48.618784527%;
+    float: left;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+    .gallery-item:first-child {
+        margin-right: 2.762430939%;
+    }
+
+.gallery-item img {
+    width: 300%;
+}
+
+.gallery-item:hover .img-title {
+    opacity: 1;
+}
+
+.img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /*opacity: 0;*/
+    display: none; /* comment this out for CSS hover */
+    background-color: #333;
+    /*transition: all 0.5s ease;*/
+}
+
+    .img-title h5 {
+        position: absolute;
+        color: #fff;
+        top: 33%;
+        width: 100%;
+        text-align: center;
+    }
+    #contactus{
     background-image: url("backgrounds/c_image.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 40vh;
-    padding-top: 3px;
-    background-size: cover;
     height: 50vh;
-    
-}
-
-#social-media{
-    margin:50px,50px,50px,50px;
-    padding:50px;
-    margin-left: 500px;
-    padding-top: 5px;
-
-}
+    background-size: cover; 
+    }
