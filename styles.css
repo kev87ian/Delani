@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    text-align: center;
+    font-family: 'Slabo 27px', ;
+}
+.bg-image{
+    display: flex;
+    background-image: url("backgrounds/h_img.jpg");
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+}
+#landing{
+    text-align: center;
+    background-color: transparent;
+}
+#about{
+    height: 30vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0mm;
+}
+
+#services{
+   height: 50vh;
+   text-align: center; 
+   justify-content: center;
+   background-image: url("backgrounds/s_image.jpg");
+   color: white;
+   background-repeat: no-repeat;
+   padding-top: 100px;
+}
+
+#text1, #text2, #text3{
+    display: none;
+}
+
+#whatwedo{
+    
+    text-align: center;
+}
+
+#mouse{
+    align-items: center;
+    padding-top: 10%;
+}
+
+#portfolio{
+    text-align: center;
+}
+
+#contacts{
+    background-image: url("backgrounds/c_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding-top: 3px;
+    background-size: cover;
+    height: 50vh;
+    
+}
+
+#social-media{
+    margin:50px,50px,50px,50px;
+    padding:50px;
+    margin-left: 500px;
+    padding-top: 5px;
+
+}
